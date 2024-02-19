@@ -7,8 +7,6 @@ The Equinox Project is a open-source project written in .NET Core
 
 The goal of this project is implement the most common used technologies and share with the technical community the best way to develop great applications with .NET
 
-[![Build status](https://ci.appveyor.com/api/projects/status/rl2ja69994rt3ei6?svg=true)](https://ci.appveyor.com/project/EduardoPires/equinoxproject)
-![.NET Core](https://github.com/EduardoPires/EquinoxProject/workflows/.NET%20Core/badge.svg)
 [![License](https://img.shields.io/github/license/eduardopires/equinoxproject.svg)](LICENSE)
 [![Issues open](https://img.shields.io/github/issues/eduardopires/equinoxproject.svg)](https://huboard.com/EduardoPires/EquinoxProject/)
 
@@ -19,7 +17,7 @@ If you liked the project or if Equinox helped you, please give a star ;)
 Check my online courses at [desenvolvedor.io](https://desenvolvedor.io)
 
 ## How to use:
-- You will need the latest Visual Studio 2022 and the latest .NET Core SDK.
+- You will need the latest Visual Studio 2019 and the latest .NET Core SDK.
 - ***Please check if you have installed the same runtime version (SDK) described in global.json***
 - The latest SDK and tools can be downloaded from https://dot.net/core.
 
@@ -29,18 +27,16 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 
 ## Technologies implemented:
 
-- ASP.NET 6.0
+- ASP.NET Core 3.1 (with .NET Core 3.1)
  - ASP.NET MVC Core 
  - ASP.NET WebApi Core with JWT Bearer Authentication
  - ASP.NET Identity Core
-- Entity Framework Core 6.0
+- Entity Framework Core 3.1
 - .NET Core Native DI
 - AutoMapper
 - FluentValidator
 - MediatR
 - Swagger UI with JWT support
-- .NET DevPack
-- .NET DevPack.Identity
 
 ## Architecture:
 
@@ -48,26 +44,12 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - Domain Driven Design (Layers and Domain Model Pattern)
 - Domain Events
 - Domain Notification
-- Domain Validations
 - CQRS (Imediate Consistency)
 - Event Sourcing
 - Unit of Work
-- Repository
+- Repository and Generic Repository
 
 ## News
-
-**v1.8 - 03/22/2022**
-- Migrated for .NET 6.0
-- All dependencies is up to date
-
-**v1.7 - 04/06/2021**
-- Migrated for .NET 5.0
-- All dependencies is up to date
-
-**v1.6 - 06/09/2020**
-- Full Refactoring (consistency, events, validation, identity)
-- Added [NetDevPack](https://github.com/NetDevPack) and saving a hundreds of code lines
-- All dependencies is up to date
 
 **v1.5 - 01/22/2020**
 - Migrated for .NET Core 3.1.1
@@ -101,8 +83,11 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - Beware to use in production way
 - Maybe you don't need a lot of implementations that is included, try avoid the **over engineering**
 
+## About the next versions
+Watch our [RoadMap](https://github.com/EduardoPires/EquinoxProject/wiki/RoadMap) to know the new changes
+
 ## Pull-Requests 
-Make a contact! Don't submit PRs for extra features, all the new features are planned
+Make a contact! Don't submit PRs for extra features, all new features is coming in V2
 
 ## Why Equinox?
 The Equinox is an astronomical event in which the plane of Earth's equator passes through the center of the Sun, which occurs twice each year, around 20 March and 23 September. [Wikipedia](https://en.wikipedia.org/wiki/Equinox)
